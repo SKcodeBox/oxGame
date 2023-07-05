@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>oxgame</title>
+    <link href="index.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1>O ✖ GAME</h1>
+    <a>再戦可能!</a>
+    <div id="board">
+      <div data-index="1" class="tile right-border bottom-border"></div>
+      <div data-index="2" class="tile right-border bottom-border"></div>
+      <div data-index="3" class="tile bottom-border"></div>
+      <div data-index="4" class="tile right-border bottom-border"></div>
+      <div data-index="5" class="tile right-border bottom-border"></div>
+      <div data-index="6" class="tile bottom-border"></div>
+      <div data-index="7" class="tile right-border"></div>
+      <div data-index="8" class="tile right-border"></div>
+      <div data-index="9" class="tile"></div>
+      <div id="strike" class="strike"></div>
+    </div>
+    <div id="game-over-area" class="hidden">
+      <h2 id="game-over-text">✖の勝ちです</h2>
+      <button id="play-again">再挑戦</button>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
